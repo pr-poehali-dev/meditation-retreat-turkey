@@ -49,7 +49,7 @@ const Index = () => {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl animate-fade-in">
               <img 
-                src="https://cdn.poehali.dev/projects/5ea0fd68-93a4-4f0c-b81d-0e08105d73ed/files/5008b8ae-7219-4b63-a323-8bfd49c5b7a5.jpg"
+                src="https://cdn.poehali.dev/files/2e54db15-1163-4564-8174-2a61de3866d8.jpg"
                 alt="Средиземноморский берег"
                 className="w-full h-full object-cover"
               />
