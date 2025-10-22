@@ -207,7 +207,7 @@ const Index = () => {
                   <div className="flex items-center justify-between mb-4">
                     <h3 className="text-3xl font-serif text-gray-800">7 дней / 6 ночей</h3>
                     <div className="text-right">
-                      <div className="text-4xl font-bold text-mediterranean">€890</div>
+                      <div className="text-4xl font-bold text-mediterranean">€1000</div>
                       <div className="text-sm text-gray-500">за человека</div>
                     </div>
                   </div>
