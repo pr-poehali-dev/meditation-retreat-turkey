@@ -139,7 +139,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl animate-fade-in order-2 md:order-1">
               <img 
-                src="https://cdn.poehali.dev/projects/5ea0fd68-93a4-4f0c-b81d-0e08105d73ed/files/767fd9a2-44c9-4082-bf20-950495299bad.jpg"
+                src="https://cdn.poehali.dev/files/e4f24ad8-5338-4f09-9312-c7679335b1b1.jpg"
                 alt="Отель"
                 className="w-full h-full object-cover"
               />
