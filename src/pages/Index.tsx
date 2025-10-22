@@ -293,8 +293,12 @@ const Index = () => {
           </div>
 
           <div className="text-gray-600">
-            <p className="mb-2">📧 retreat@turkey.com</p>
-            <p>📞 +90 555 123 45 67</p>
+            <a href="https://t.me/retreatturkey" target="_blank" rel="noopener noreferrer" className="block mb-2 hover:text-mediterranean transition-colors">
+              📱 Написать в Telegram
+            </a>
+            <a href="https://t.me/retreatturkey" target="_blank" rel="noopener noreferrer" className="block hover:text-mediterranean transition-colors">
+              💬 @retreatturkey
+            </a>
           </div>
         </div>
       </section>
