@@ -293,11 +293,11 @@ const Index = () => {
           </div>
 
           <div className="text-gray-600">
-            <a href="https://t.me/retreatturkey" target="_blank" rel="noopener noreferrer" className="block mb-2 hover:text-mediterranean transition-colors">
+            <a href="https://t.me/olvonata_private" target="_blank" rel="noopener noreferrer" className="block mb-2 hover:text-mediterranean transition-colors">
               📱 Написать в Telegram
             </a>
-            <a href="https://t.me/retreatturkey" target="_blank" rel="noopener noreferrer" className="block hover:text-mediterranean transition-colors">
-              💬 @retreatturkey
+            <a href="https://t.me/olvonata_private" target="_blank" rel="noopener noreferrer" className="block hover:text-mediterranean transition-colors">
+              💬 @olvonata_private
             </a>
           </div>
         </div>
