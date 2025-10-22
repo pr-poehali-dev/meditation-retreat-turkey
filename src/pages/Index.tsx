@@ -278,9 +278,12 @@ const Index = () => {
             <Button 
               size="lg" 
               className="bg-mediterranean hover:bg-mediterranean/90 text-white px-8 py-6 text-lg flex items-center gap-2"
+              asChild
             >
-              <Icon name="Mail" size={20} />
-              Написать на почту
+              <a href="https://t.me/olvonata_private" target="_blank" rel="noopener noreferrer">
+                <Icon name="Send" size={20} />
+                Написать в Telegram
+              </a>
             </Button>
             <Button 
               size="lg" 
