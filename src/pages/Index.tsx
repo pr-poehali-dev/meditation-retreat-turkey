@@ -41,10 +41,10 @@ const Index = () => {
                 <span className="text-sm uppercase tracking-wider font-semibold">Местоположение</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800 leading-tight">
-                Затерянный городок нетуристической Турции
+                Город Каш — затерянный уголок нетуристической Турции
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed mb-4">
-                Средиземноморское побережье вдали от туристических маршрутов. 
+                Каш — небольшой город на средиземноморском побережье вдали от массовых туристических маршрутов. 
                 Место, где время замедляется, а душа находит покой.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed mb-4">
