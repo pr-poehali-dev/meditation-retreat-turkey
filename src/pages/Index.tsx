@@ -5,52 +5,62 @@ import Icon from "@/components/ui/icon";
 const Index = () => {
   return (
     <div className="min-h-screen bg-white">
+      {/* Hero Section */}
       <section 
         className="relative h-screen flex items-center justify-center bg-cover bg-center"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('https://cdn.poehali.dev/projects/5ea0fd68-93a4-4f0c-b81d-0e08105d73ed/files/5008b8ae-7219-4b63-a323-8bfd49c5b7a5.jpg')`
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://cdn.poehali.dev/files/2e54db15-1163-4564-8174-2a61de3866d8.jpg')`
         }}
       >
-        <div className="text-center text-white px-4 animate-fade-in">
+        <div className="text-center text-white px-4 animate-fade-in max-w-4xl">
           <h1 className="text-5xl md:text-7xl font-serif mb-6">
             Ретрит в Турции
           </h1>
-          <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto font-light">
-            Неделя тепла и солнца в затерянном средиземноморском городке
+          <p className="text-xl md:text-2xl mb-8 font-light">
+            Неделя тепла и солнца перед холодной зимой
+          </p>
+          <p className="text-lg md:text-xl mb-10 font-light opacity-90">
+            Затерянный средиземноморский городок · Практики цигун · Морское путешествие
           </p>
           <Button 
             size="lg" 
-            className="bg-secondary hover:bg-secondary/90 text-white px-8 py-6 text-lg"
+            className="bg-white hover:bg-gray-100 text-gray-800 px-8 py-6 text-lg font-medium"
           >
-            Забронировать место
+            Присоединяйтесь
           </Button>
         </div>
       </section>
 
-      <section id="location" className="py-20 px-4 bg-white">
+      {/* Location Section */}
+      <section id="location" className="py-24 px-4 bg-gradient-to-b from-white to-blue-50">
         <div className="container mx-auto max-w-6xl">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="animate-fade-in">
-              <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800">
-                Местоположение
+              <div className="flex items-center gap-2 text-mediterranean mb-4">
+                <Icon name="MapPin" size={28} />
+                <span className="text-sm uppercase tracking-wider font-semibold">Местоположение</span>
+              </div>
+              <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800 leading-tight">
+                Затерянный городок нетуристической Турции
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed mb-4">
-                Затерянный городок нетуристической Турции на берегу Средиземного моря. 
-                Место, где время замедляется, а суета остается далеко позади.
+                Средиземноморское побережье вдали от туристических маршрутов. 
+                Место, где время замедляется, а душа находит покой.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed mb-4">
-                Мы будем встречать рассветы и закаты в полной тишине, слушать звуки природы 
-                и практиковать древние техники оздоровления.
+                Мы будем встречать рассветы и закаты в тишине, слушать звуки природы 
+                и моря, наслаждаться теплом солнца и мягким бризом.
               </p>
-              <div className="flex items-center gap-2 text-mediterranean">
-                <Icon name="MapPin" size={24} />
-                <span className="text-lg font-medium">Средиземноморское побережье Турции</span>
+              <div className="mt-8 p-6 bg-white rounded-lg shadow-md">
+                <p className="text-gray-700 italic">
+                  "Здесь вы услышите тишину и научитесь слушать себя"
+                </p>
               </div>
             </div>
-            <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl animate-fade-in">
+            <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl animate-fade-in">
               <img 
                 src="https://cdn.poehali.dev/files/2e54db15-1163-4564-8174-2a61de3866d8.jpg"
-                alt="Средиземноморский берег"
+                alt="Средиземноморский городок"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -58,128 +68,158 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="program" className="py-20 px-4 bg-gradient-to-b from-blue-50 to-white">
+      {/* Practices Section */}
+      <section id="practices" className="py-24 px-4 bg-blue-50">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-fade-in">
+            <div className="flex items-center justify-center gap-2 text-healing mb-4">
+              <Icon name="Heart" size={28} />
+              <span className="text-sm uppercase tracking-wider font-semibold">Практики</span>
+            </div>
             <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800">
-              Программа ретрита
+              Гормональный цигун и медитация
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Древние практики цигун для гармонизации тела и духа
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              Древний комплекс для восстановления женского и мужского здоровья
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <Card className="border-none shadow-lg hover:shadow-xl transition-shadow animate-fade-in">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in bg-white">
               <CardContent className="p-8">
-                <div className="mb-4 text-healing">
-                  <Icon name="Sunrise" size={48} />
+                <div className="mb-6 text-healing">
+                  <Icon name="Sparkles" size={48} />
                 </div>
-                <h3 className="text-2xl font-serif mb-4 text-gray-800">Практики цигун</h3>
+                <h3 className="text-2xl font-serif mb-4 text-gray-800">Гормональный цигун</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Изучим гормональный древний комплекс цигун, который помогает наладить 
-                  женское и мужское здоровье, избежать или отсрочить симптомы климакса, 
-                  справиться с проявлениями ПМС.
+                  Выучим древний комплекс, который помогает наладить гормональный баланс, 
+                  поддержать женское и мужское здоровье.
                 </p>
               </CardContent>
             </Card>
 
-            <Card className="border-none shadow-lg hover:shadow-xl transition-shadow animate-fade-in">
+            <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in bg-white">
               <CardContent className="p-8">
-                <div className="mb-4 text-mediterranean">
+                <div className="mb-6 text-mediterranean">
+                  <Icon name="Flower2" size={48} />
+                </div>
+                <h3 className="text-2xl font-serif mb-4 text-gray-800">Для женского здоровья</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Практики помогают избежать или отсрочить симптомы климакса, 
+                  наладить цикл и справиться с проявлениями ПМС.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in bg-white">
+              <CardContent className="p-8">
+                <div className="mb-6 text-sunset">
                   <Icon name="Brain" size={48} />
                 </div>
                 <h3 className="text-2xl font-serif mb-4 text-gray-800">Медитация</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Научимся медитировать и слушать тишину. Практики для успокоения ума, 
-                  глубокого расслабления и восстановления внутреннего баланса.
+                  Научимся медитировать, слушать тишину и находить внутренний покой. 
+                  Техники для глубокого расслабления.
                 </p>
               </CardContent>
             </Card>
 
-            <Card className="border-none shadow-lg hover:shadow-xl transition-shadow animate-fade-in">
+            <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in bg-white">
               <CardContent className="p-8">
-                <div className="mb-4 text-sunset">
+                <div className="mb-6 text-terracotta">
+                  <Icon name="Sunrise" size={48} />
+                </div>
+                <h3 className="text-2xl font-serif mb-4 text-gray-800">Встречи рассвета</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Каждый день начинается с приветствия солнца на берегу моря 
+                  в атмосфере покоя и гармонии.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in bg-white">
+              <CardContent className="p-8">
+                <div className="mb-6 text-healing">
+                  <Icon name="Moon" size={48} />
+                </div>
+                <h3 className="text-2xl font-serif mb-4 text-gray-800">Закаты в тишине</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Вечерние практики созерцания и благодарности, 
+                  наблюдая за уходящим солнцем над морем.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 animate-fade-in bg-white">
+              <CardContent className="p-8">
+                <div className="mb-6 text-mediterranean">
                   <Icon name="Sailboat" size={48} />
                 </div>
                 <h3 className="text-2xl font-serif mb-4 text-gray-800">Морское путешествие</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Путешествие на яхте по средиземноморскому побережью с посещением 
-                  древних памятников и уединенных бухт.
+                  Путешествие на яхте по побережью с посещением 
+                  древних памятников и скрытых бухт.
                 </p>
               </CardContent>
             </Card>
-
-            <Card className="border-none shadow-lg hover:shadow-xl transition-shadow animate-fade-in">
-              <CardContent className="p-8">
-                <div className="mb-4 text-terracotta">
-                  <Icon name="Sun" size={48} />
-                </div>
-                <h3 className="text-2xl font-serif mb-4 text-gray-800">Встречи рассвета</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Каждый день начинается с приветствия солнца и завершается созерцанием 
-                  заката в атмосфере покоя и гармонии.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
-
-          <div className="relative h-[500px] rounded-lg overflow-hidden shadow-2xl animate-fade-in">
-            <img 
-              src="https://cdn.poehali.dev/projects/5ea0fd68-93a4-4f0c-b81d-0e08105d73ed/files/3bc242da-aff7-43e2-90c5-c49c796ef1d4.jpg"
-              alt="Медитация на рассвете"
-              className="w-full h-full object-cover"
-            />
           </div>
         </div>
       </section>
 
-      <section id="hotel" className="py-20 px-4 bg-white">
+      {/* Hotel Section */}
+      <section id="hotel" className="py-24 px-4 bg-gradient-to-b from-blue-50 to-white">
         <div className="container mx-auto max-w-6xl">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl animate-fade-in order-2 md:order-1">
+          <div className="grid md:grid-cols-2 gap-16 items-center">
+            <div className="relative h-[550px] rounded-2xl overflow-hidden shadow-2xl animate-fade-in">
               <img 
                 src="https://cdn.poehali.dev/files/e4f24ad8-5338-4f09-9312-c7679335b1b1.jpg"
-                alt="Отель"
+                alt="Отель на берегу моря"
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="animate-fade-in order-1 md:order-2">
-              <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800">
-                Проживание
+            <div className="animate-fade-in">
+              <div className="flex items-center gap-2 text-sunset mb-4">
+                <Icon name="Hotel" size={28} />
+                <span className="text-sm uppercase tracking-wider font-semibold">Проживание</span>
+              </div>
+              <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800 leading-tight">
+                Шикарный отель на берегу моря
               </h2>
-              <p className="text-lg text-gray-600 leading-relaxed mb-6">
-                Шикарный бутик-отель на берегу моря с аутентичной средиземноморской 
-                архитектурой. Уютные номера с видом на море и террасами для медитаций.
+              <p className="text-lg text-gray-600 leading-relaxed mb-8">
+                Бутик-отель с аутентичной средиземноморской архитектурой, 
+                уютными номерами и потрясающими видами на море.
               </p>
               
-              <div className="space-y-4">
-                <div className="flex items-start gap-3">
-                  <Icon name="UtensilsCrossed" size={24} className="text-healing mt-1" />
+              <div className="space-y-6">
+                <div className="flex items-start gap-4 p-4 bg-white rounded-lg shadow-sm">
+                  <Icon name="UtensilsCrossed" size={28} className="text-healing mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold text-gray-800 mb-1">Вкусная еда</h4>
-                    <p className="text-gray-600">
-                      Средиземноморская кухня с местными продуктами и свежими морепродуктами
+                    <h4 className="font-semibold text-gray-800 mb-2 text-lg">Вкусная еда</h4>
+                    <p className="text-gray-600 leading-relaxed">
+                      Средиземноморская кухня с местными продуктами, свежими морепродуктами 
+                      и традиционными турецкими блюдами
                     </p>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-3">
-                  <Icon name="Waves" size={24} className="text-mediterranean mt-1" />
+                <div className="flex items-start gap-4 p-4 bg-white rounded-lg shadow-sm">
+                  <Icon name="Waves" size={28} className="text-mediterranean mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold text-gray-800 mb-1">Прямой выход к морю</h4>
-                    <p className="text-gray-600">
-                      Частный пляж и возможность купаться в любое время
+                    <h4 className="font-semibold text-gray-800 mb-2 text-lg">Прямой выход к морю</h4>
+                    <p className="text-gray-600 leading-relaxed">
+                      Частный пляж с шезлонгами и возможность купаться 
+                      в чистейшей воде в любое время
                     </p>
                   </div>
                 </div>
 
-                <div className="flex items-start gap-3">
-                  <Icon name="Home" size={24} className="text-sunset mt-1" />
+                <div className="flex items-start gap-4 p-4 bg-white rounded-lg shadow-sm">
+                  <Icon name="Home" size={28} className="text-sunset mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold text-gray-800 mb-1">Комфорт и уют</h4>
-                    <p className="text-gray-600">
-                      Просторные номера с кондиционером и всеми удобствами
+                    <h4 className="font-semibold text-gray-800 mb-2 text-lg">Комфорт и уют</h4>
+                    <p className="text-gray-600 leading-relaxed">
+                      Просторные номера с террасами, кондиционером 
+                      и всеми удобствами для отдыха
                     </p>
                   </div>
                 </div>
@@ -189,124 +229,135 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="pricing" className="py-20 px-4 bg-gradient-to-b from-white to-blue-50">
-        <div className="container mx-auto max-w-4xl">
+      {/* Pricing Section */}
+      <section id="pricing" className="py-24 px-4 bg-white">
+        <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-16 animate-fade-in">
+            <div className="flex items-center justify-center gap-2 text-terracotta mb-4">
+              <Icon name="Calendar" size={28} />
+              <span className="text-sm uppercase tracking-wider font-semibold">Условия</span>
+            </div>
             <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800">
               Условия участия
             </h2>
-            <p className="text-xl text-gray-600">
-              Неделя трансформации перед холодной зимой
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              Всё включено: проживание, питание, практики и морское путешествие
             </p>
           </div>
 
-          <Card className="border-none shadow-2xl animate-fade-in">
-            <CardContent className="p-10">
-              <div className="space-y-6">
-                <div className="border-b pb-6">
-                  <div className="flex items-center justify-between mb-4">
-                    <h3 className="text-3xl font-serif text-gray-800">7 дней / 6 ночей</h3>
-                    <div className="text-right">
-                      <div className="text-4xl font-bold text-mediterranean">€1000</div>
-                      <div className="text-sm text-gray-500">за человека</div>
-                    </div>
+          <Card className="border-none shadow-2xl animate-fade-in bg-gradient-to-br from-blue-50 to-white">
+            <CardContent className="p-12">
+              <div className="text-center mb-10">
+                <div className="inline-block mb-6">
+                  <Icon name="Sparkles" size={64} className="text-healing" />
+                </div>
+                <h3 className="text-3xl font-serif mb-4 text-gray-800">Программа «Полный ретрит»</h3>
+                <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
+                  7 дней и 6 ночей на берегу Средиземного моря
+                </p>
+              </div>
+
+              <div className="grid md:grid-cols-2 gap-6 mb-10">
+                <div className="flex items-start gap-3 p-4 bg-white rounded-lg">
+                  <Icon name="CheckCircle2" size={24} className="text-healing mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="text-gray-700 font-medium">Проживание в шикарном отеле</p>
                   </div>
                 </div>
 
-                <div className="space-y-3">
-                  <h4 className="text-xl font-semibold text-gray-800 mb-4">В стоимость включено:</h4>
-                  
-                  <div className="flex items-center gap-3">
-                    <Icon name="Check" size={20} className="text-healing flex-shrink-0" />
-                    <span className="text-gray-600">Проживание в отеле с видом на море</span>
-                  </div>
-                  
-                  <div className="flex items-center gap-3">
-                    <Icon name="Check" size={20} className="text-healing flex-shrink-0" />
-                    <span className="text-gray-600">Трехразовое питание (средиземноморская кухня)</span>
-                  </div>
-                  
-                  <div className="flex items-center gap-3">
-                    <Icon name="Check" size={20} className="text-healing flex-shrink-0" />
-                    <span className="text-gray-600">Ежедневные практики цигун и медитации</span>
-                  </div>
-                  
-                  <div className="flex items-center gap-3">
-                    <Icon name="Check" size={20} className="text-healing flex-shrink-0" />
-                    <span className="text-gray-600">Путешествие на яхте</span>
-                  </div>
-                  
-                  <div className="flex items-center gap-3">
-                    <Icon name="Check" size={20} className="text-healing flex-shrink-0" />
-                    <span className="text-gray-600">Экскурсии к древним памятникам</span>
-                  </div>
-                  
-                  <div className="flex items-center gap-3">
-                    <Icon name="Check" size={20} className="text-healing flex-shrink-0" />
-                    <span className="text-gray-600">Трансфер из/в аэропорт</span>
+                <div className="flex items-start gap-3 p-4 bg-white rounded-lg">
+                  <Icon name="CheckCircle2" size={24} className="text-healing mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="text-gray-700 font-medium">Трёхразовое питание</p>
                   </div>
                 </div>
 
-                <div className="pt-6">
-                  <p className="text-sm text-gray-500 mb-6">
-                    * Авиабилеты оплачиваются отдельно
-                  </p>
-                  <Button 
-                    size="lg" 
-                    className="w-full bg-secondary hover:bg-secondary/90 text-white py-6 text-lg"
-                  >
-                    Забронировать место
-                  </Button>
+                <div className="flex items-start gap-3 p-4 bg-white rounded-lg">
+                  <Icon name="CheckCircle2" size={24} className="text-healing mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="text-gray-700 font-medium">Ежедневные практики цигун</p>
+                  </div>
                 </div>
+
+                <div className="flex items-start gap-3 p-4 bg-white rounded-lg">
+                  <Icon name="CheckCircle2" size={24} className="text-healing mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="text-gray-700 font-medium">Медитации на рассвете и закате</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 p-4 bg-white rounded-lg">
+                  <Icon name="CheckCircle2" size={24} className="text-healing mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="text-gray-700 font-medium">Путешествие на яхте</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 p-4 bg-white rounded-lg">
+                  <Icon name="CheckCircle2" size={24} className="text-healing mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="text-gray-700 font-medium">Экскурсии к памятникам</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="text-center pt-8 border-t border-gray-200">
+                <p className="text-gray-600 mb-6 text-lg">
+                  Неделя тепла и солнца перед холодной зимой
+                </p>
+                <Button 
+                  size="lg" 
+                  className="bg-healing hover:bg-healing/90 text-white px-12 py-6 text-xl"
+                >
+                  Присоединяйтесь
+                </Button>
+                <p className="text-gray-500 mt-6 text-sm">
+                  Количество мест ограничено
+                </p>
               </div>
             </CardContent>
           </Card>
         </div>
       </section>
 
-      <section id="contact" className="py-20 px-4 bg-white">
-        <div className="container mx-auto max-w-2xl text-center animate-fade-in">
+      {/* CTA Section */}
+      <section className="py-24 px-4 bg-gradient-to-b from-blue-50 to-mediterranean/10">
+        <div className="container mx-auto max-w-4xl text-center animate-fade-in">
+          <Icon name="Heart" size={64} className="text-healing mx-auto mb-6" />
           <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800">
-            Присоединяйтесь
+            Присоединяйтесь к ретриту
           </h2>
-          <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-            Осталось ограниченное количество мест. Запишитесь сейчас, 
-            чтобы успеть насладиться теплом и солнцем перед зимой.
+          <p className="text-xl text-gray-600 mb-10 leading-relaxed max-w-2xl mx-auto">
+            Подарите себе неделю покоя, практик и средиземноморского тепла 
+            перед холодной зимой
           </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button 
-              size="lg" 
-              className="bg-mediterranean hover:bg-mediterranean/90 text-white px-8 py-6 text-lg flex items-center gap-2"
-              asChild
-            >
-              <a href="https://t.me/olvonata_private" target="_blank" rel="noopener noreferrer">
-                <Icon name="Send" size={20} />
-                Написать в Telegram
-              </a>
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="border-2 border-mediterranean text-mediterranean hover:bg-mediterranean/10 px-8 py-6 text-lg flex items-center gap-2"
-            >
-              <Icon name="Phone" size={20} />
-              Позвонить
-            </Button>
-          </div>
-
-          <div className="text-gray-600">
-            <a href="https://t.me/olvonata_private" target="_blank" rel="noopener noreferrer" className="block hover:text-mediterranean transition-colors">
-              💬 @olvonata_private
-            </a>
-          </div>
+          <Button 
+            size="lg" 
+            className="bg-sunset hover:bg-sunset/90 text-white px-12 py-6 text-xl"
+          >
+            Забронировать место
+          </Button>
         </div>
       </section>
 
-      <footer className="bg-gray-900 text-white py-12 px-4">
+      {/* Footer */}
+      <footer className="py-12 px-4 bg-gray-800 text-white">
         <div className="container mx-auto max-w-6xl text-center">
-          <p className="text-lg font-serif mb-2">Ретрит в Турции 2025</p>
-          <p className="text-gray-400">Неделя трансформации и гармонии</p>
+          <p className="text-gray-300 mb-4">Ретрит в Турции · 2024</p>
+          <div className="flex justify-center gap-6">
+            <a href="#location" className="text-gray-300 hover:text-white transition-colors">
+              Местоположение
+            </a>
+            <a href="#practices" className="text-gray-300 hover:text-white transition-colors">
+              Практики
+            </a>
+            <a href="#hotel" className="text-gray-300 hover:text-white transition-colors">
+              Отель
+            </a>
+            <a href="#pricing" className="text-gray-300 hover:text-white transition-colors">
+              Условия
+            </a>
+          </div>
         </div>
       </footer>
     </div>
