@@ -77,10 +77,10 @@ const Index = () => {
               <span className="text-sm uppercase tracking-wider font-semibold">Практики</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800">
-              Гормональный цигун и медитация
+              Практики цигун и медитация
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Древний комплекс для восстановления женского и мужского здоровья
+              Древние техники для внутренней гармонии и здоровья
             </p>
           </div>
 
@@ -90,10 +90,10 @@ const Index = () => {
                 <div className="mb-6 text-healing">
                   <Icon name="Sparkles" size={48} />
                 </div>
-                <h3 className="text-2xl font-serif mb-4 text-gray-800">Гормональный цигун</h3>
+                <h3 className="text-2xl font-serif mb-4 text-gray-800">Практики цигун</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Выучим древний комплекс, который помогает наладить гормональный баланс, 
-                  поддержать женское и мужское здоровье.
+                  Изучим древние техники работы с энергией ци для укрепления здоровья, 
+                  внутренней силы и баланса.
                 </p>
               </CardContent>
             </Card>
@@ -103,10 +103,10 @@ const Index = () => {
                 <div className="mb-6 text-mediterranean">
                   <Icon name="Flower2" size={48} />
                 </div>
-                <h3 className="text-2xl font-serif mb-4 text-gray-800">Для женского здоровья</h3>
+                <h3 className="text-2xl font-serif mb-4 text-gray-800">Здоровье и долголетие</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Практики помогают избежать или отсрочить симптомы климакса, 
-                  наладить цикл и справиться с проявлениями ПМС.
+                  Комплекс способствует укреплению иммунитета, 
+                  повышению жизненного тонуса и энергетики.
                 </p>
               </CardContent>
             </Card>
@@ -162,6 +162,93 @@ const Index = () => {
                 </p>
               </CardContent>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Bodhidharma Section */}
+      <section className="py-24 px-4 bg-white">
+        <div className="container mx-auto max-w-6xl">
+          <div className="grid md:grid-cols-2 gap-16 items-center">
+            <div className="animate-fade-in">
+              <div className="flex items-center gap-2 text-healing mb-4">
+                <Icon name="Sparkles" size={28} />
+                <span className="text-sm uppercase tracking-wider font-semibold">Что мы будем изучать</span>
+              </div>
+              <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800 leading-tight">
+                Комплекс цигун Бодхидхармы
+              </h2>
+              <p className="text-xl text-gray-600 leading-relaxed mb-6 font-medium">
+                Древнее наследие мудрости для внутренней гармонии и силы
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed mb-4">
+                Этот уникальный комплекс цигун был создан великим мастером Бодхидхармы и оставлен 
+                в наследство монахам Шаолиня — одному из старейших и самых знаменитых монастырей 
+                и центров духовной и боевой практики Китая.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                Он объединяет древние знания о внутренней энергии и техники, которые помогают 
+                обрести здоровье, баланс и внутреннюю силу.
+              </p>
+              
+              <div className="bg-gradient-to-br from-blue-50 to-healing/10 rounded-lg p-6 mb-6">
+                <h4 className="font-semibold text-gray-800 mb-3 text-lg">Что представляет собой комплекс</h4>
+                <p className="text-gray-600 leading-relaxed">
+                  Систематизированная практика, включающая дыхательные упражнения, статические 
+                  и динамические движения, медитации и техники концентрации. Все компоненты направлены 
+                  на активизацию, гармонизацию и укрепление энергии ци внутри тела, а также на развитие 
+                  внутреннего спокойствия, осознанности и духовной глубины.
+                </p>
+              </div>
+            </div>
+
+            <div className="space-y-6 animate-fade-in">
+              <h3 className="text-2xl font-serif mb-6 text-gray-800">Ценность комплекса</h3>
+              
+              <div className="flex items-start gap-4 p-5 bg-gradient-to-br from-white to-blue-50 rounded-lg shadow-sm border border-blue-100">
+                <Icon name="Zap" size={28} className="text-healing mt-1 flex-shrink-0" />
+                <div>
+                  <h4 className="font-semibold text-gray-800 mb-2">Глубокое знание внутренней энергии</h4>
+                  <p className="text-gray-600 leading-relaxed">
+                    Комплекс помогает понять и управлять своей жизненной силой, 
+                    что важно для достижения гармонии тела и ума
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4 p-5 bg-gradient-to-br from-white to-blue-50 rounded-lg shadow-sm border border-blue-100">
+                <Icon name="Heart" size={28} className="text-mediterranean mt-1 flex-shrink-0" />
+                <div>
+                  <h4 className="font-semibold text-gray-800 mb-2">Здоровье и долголетие</h4>
+                  <p className="text-gray-600 leading-relaxed">
+                    Регулярная практика способствует укреплению иммунитета, 
+                    повышению жизненного тонуса и энергетики
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4 p-5 bg-gradient-to-br from-white to-blue-50 rounded-lg shadow-sm border border-blue-100">
+                <Icon name="Flame" size={28} className="text-sunset mt-1 flex-shrink-0" />
+                <div>
+                  <h4 className="font-semibold text-gray-800 mb-2">Духовное развитие</h4>
+                  <p className="text-gray-600 leading-relaxed">
+                    Практики Бодхидхармы помогают найти внутренний покой, 
+                    развивают сосредоточенность и духовное восприятие
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4 p-5 bg-gradient-to-br from-white to-blue-50 rounded-lg shadow-sm border border-blue-100">
+                <Icon name="BookOpen" size={28} className="text-terracotta mt-1 flex-shrink-0" />
+                <div>
+                  <h4 className="font-semibold text-gray-800 mb-2">Историческая и культурная ценность</h4>
+                  <p className="text-gray-600 leading-relaxed">
+                    Это часть великого наследия мудрости древнего Китая, 
+                    сохраняющая свою актуальность и сегодня
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
