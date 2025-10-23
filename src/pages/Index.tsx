@@ -25,8 +25,11 @@ const Index = () => {
           <Button 
             size="lg" 
             className="bg-white hover:bg-gray-100 text-gray-800 px-8 py-6 text-lg font-medium"
+            asChild
           >
-            Присоединяйтесь
+            <a href="https://t.me/olvonata_private" target="_blank" rel="noopener noreferrer">
+              Присоединяйтесь
+            </a>
           </Button>
         </div>
       </section>
@@ -395,8 +398,11 @@ const Index = () => {
                 <Button 
                   size="lg" 
                   className="bg-healing hover:bg-healing/90 text-white px-12 py-6 text-xl"
+                  asChild
                 >
-                  Присоединяйтесь
+                  <a href="https://t.me/olvonata_private" target="_blank" rel="noopener noreferrer">
+                    Присоединяйтесь
+                  </a>
                 </Button>
                 <p className="text-gray-500 mt-6 text-sm">
                   Количество мест ограничено
@@ -421,8 +427,11 @@ const Index = () => {
           <Button 
             size="lg" 
             className="bg-sunset hover:bg-sunset/90 text-white px-12 py-6 text-xl"
+            asChild
           >
-            Забронировать место
+            <a href="https://t.me/olvonata_private" target="_blank" rel="noopener noreferrer">
+              Забронировать место
+            </a>
           </Button>
         </div>
       </section>
