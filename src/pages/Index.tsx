@@ -363,6 +363,12 @@ const Index = () => {
                 </p>
               </div>
             </div>
+            
+            <div className="mt-8 text-center">
+              <p className="text-sm text-gray-500 italic max-w-2xl mx-auto">
+                Номера разных категорий с минимальной разницей в цене, поэтому лучшие номера уйдут первыми.
+              </p>
+            </div>
           </div>
         </div>
       </section>
