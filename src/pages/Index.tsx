@@ -14,7 +14,7 @@ const Index = () => {
       >
         <div className="text-center text-white px-4 animate-fade-in max-w-4xl">
           <h1 className="text-5xl md:text-7xl font-serif mb-6">
-            Цигун-интенсив. 8 дней.
+            Цигун-интенсив
           </h1>
           <p className="text-xl md:text-2xl mb-8 font-light">
             16-23 ноября 2025 г.
@@ -44,28 +44,44 @@ const Index = () => {
                 <span className="text-sm uppercase tracking-wider font-semibold">Местоположение</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800 leading-tight">
-                Город Каш — затерянный уголок нетуристической Турции
+                Город Каш на Ликийской тропе
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed mb-4">
-                Каш — небольшой город на средиземноморском побережье вдали от массовых туристических маршрутов. 
-                Место, где время замедляется, а душа находит покой.
+                Каш – небольшой древний городок, который стоит на знаменитой Ликийской тропе еще с античных времен.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed mb-4">
-                Мы будем встречать рассветы и закаты в тишине, слушать звуки природы 
-                и моря, наслаждаться теплом солнца и мягким бризом.
+                Вдали от шумных туристических локаций, где время замедляется, а душа находит покой среди древних улочек и бирюзового моря.
               </p>
               <div className="mt-8 p-6 bg-white rounded-lg shadow-md">
                 <p className="text-gray-700 italic">
-                  "Здесь вы услышите тишину и научитесь слушать себя"
+                  "Место, где древность встречается с природой"
                 </p>
               </div>
             </div>
-            <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl animate-fade-in">
-              <img 
-                src="https://cdn.poehali.dev/files/2e54db15-1163-4564-8174-2a61de3866d8.jpg"
-                alt="Средиземноморский городок"
-                className="w-full h-full object-cover"
-              />
+            <div className="space-y-4 animate-fade-in">
+              <div className="relative h-[300px] rounded-2xl overflow-hidden shadow-xl">
+                <img 
+                  src="https://cdn.poehali.dev/files/14a2099d-b96e-4fb6-a0b1-a27809dd9520.jpg"
+                  alt="Старинные улочки Каша"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="relative h-[240px] rounded-xl overflow-hidden shadow-lg">
+                  <img 
+                    src="https://cdn.poehali.dev/files/d36e763c-4bf5-4469-8680-4be39dc981ba.jpg"
+                    alt="Античная архитектура"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="relative h-[240px] rounded-xl overflow-hidden shadow-lg">
+                  <img 
+                    src="https://cdn.poehali.dev/files/0590defc-81b0-412f-b963-ce5bf047760b.jpg"
+                    alt="Уютные улочки"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
