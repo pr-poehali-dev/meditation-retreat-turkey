@@ -9,7 +9,7 @@ const Index = () => {
       <section 
         className="relative h-screen flex items-center justify-center bg-cover bg-center"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://cdn.poehali.dev/files/2e54db15-1163-4564-8174-2a61de3866d8.jpg')`
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://cdn.poehali.dev/files/bec92da7-35c1-4a15-95e9-4507254996e0.jpg')`
         }}
       >
         <div className="text-center text-white px-4 animate-fade-in max-w-4xl">
