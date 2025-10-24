@@ -172,85 +172,102 @@ const Index = () => {
       {/* Bodhidharma Section */}
       <section className="py-24 px-4 bg-white">
         <div className="container mx-auto max-w-6xl">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
+          <div className="text-center mb-16 animate-fade-in">
+            <div className="flex items-center justify-center gap-2 text-healing mb-4">
+              <Icon name="Sparkles" size={28} />
+              <span className="text-sm uppercase tracking-wider font-semibold">Что мы будем изучать</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800">
+              Второй комплекс цигун Бодхидхармы
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              Древнейший комплекс цигун от самого Дамо, оставленный в наследство первым шаолиньским монахам
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-16 items-center mb-16">
             <div className="animate-fade-in">
-              <div className="flex items-center gap-2 text-healing mb-4">
-                <Icon name="Sparkles" size={28} />
-                <span className="text-sm uppercase tracking-wider font-semibold">Что мы будем изучать</span>
-              </div>
-              <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800 leading-tight">
-                Комплекс цигун Бодхидхармы
-              </h2>
-              <p className="text-xl text-gray-600 leading-relaxed mb-6 font-medium">
-                Древнее наследие мудрости для внутренней гармонии и силы
-              </p>
+              <h3 className="text-3xl font-serif mb-6 text-gray-800">Древнее наследие Шаолиня</h3>
               <p className="text-lg text-gray-600 leading-relaxed mb-4">
-                Этот уникальный комплекс цигун был создан великим мастером Бодхидхармы и оставлен 
-                в наследство монахам Шаолиня — одному из старейших и самых знаменитых монастырей 
-                и центров духовной и боевой практики Китая.
+                Изображения этого комплекса до сих пор высечены на камнях у подножия храма. 
+                Именно там, в Шаолине, я изучала этот комплекс под личным руководством одного 
+                из сильнейших мастеров цигун современного Китая.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
-                Он объединяет древние знания о внутренней энергии и техники, которые помогают 
-                обрести здоровье, баланс и внутреннюю силу.
+                Это канон укрепления мышц и сухожилий, улучшение кровообращения и повышение гибкости. 
+                Этот комплекс также способствует энергетическому здоровью и улучшает ясность ума.
               </p>
               
-              <div className="bg-gradient-to-br from-blue-50 to-healing/10 rounded-lg p-6 mb-6">
-                <h4 className="font-semibold text-gray-800 mb-3 text-lg">Что представляет собой комплекс</h4>
-                <p className="text-gray-600 leading-relaxed">
-                  Систематизированная практика, включающая дыхательные упражнения, статические 
-                  и динамические движения, медитации и техники концентрации. Все компоненты направлены 
-                  на активизацию, гармонизацию и укрепление энергии ци внутри тела, а также на развитие 
-                  внутреннего спокойствия, осознанности и духовной глубины.
-                </p>
+              <div className="bg-gradient-to-br from-blue-50 to-healing/10 rounded-lg p-6">
+                <h4 className="font-semibold text-gray-800 mb-3 text-lg flex items-center gap-2">
+                  <Icon name="Sparkles" size={24} className="text-healing" />
+                  Польза практики
+                </h4>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-start gap-2">
+                    <Icon name="CheckCircle2" size={20} className="text-healing mt-1 flex-shrink-0" />
+                    <span>Укрепление мышц и сухожилий</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <Icon name="CheckCircle2" size={20} className="text-healing mt-1 flex-shrink-0" />
+                    <span>Улучшение кровообращения</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <Icon name="CheckCircle2" size={20} className="text-healing mt-1 flex-shrink-0" />
+                    <span>Повышение гибкости тела</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <Icon name="CheckCircle2" size={20} className="text-healing mt-1 flex-shrink-0" />
+                    <span>Энергетическое здоровье</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <Icon name="CheckCircle2" size={20} className="text-healing mt-1 flex-shrink-0" />
+                    <span>Ясность ума и концентрация</span>
+                  </li>
+                </ul>
               </div>
             </div>
 
-            <div className="space-y-6 animate-fade-in">
-              <h3 className="text-2xl font-serif mb-6 text-gray-800">Ценность комплекса</h3>
-              
-              <div className="flex items-start gap-4 p-5 bg-gradient-to-br from-white to-blue-50 rounded-lg shadow-sm border border-blue-100">
-                <Icon name="Zap" size={28} className="text-healing mt-1 flex-shrink-0" />
-                <div>
-                  <h4 className="font-semibold text-gray-800 mb-2">Глубокое знание внутренней энергии</h4>
-                  <p className="text-gray-600 leading-relaxed">
-                    Комплекс помогает понять и управлять своей жизненной силой, 
-                    что важно для достижения гармонии тела и ума
-                  </p>
-                </div>
+            <div className="grid grid-cols-2 gap-4 animate-fade-in">
+              <div className="relative h-64 rounded-lg overflow-hidden shadow-lg">
+                <img 
+                  src="https://cdn.poehali.dev/files/1b4c000b-4c22-4e4c-8fb8-1dd5a2fddfa7.jpg"
+                  alt="Высеченные изображения комплекса Бодхидхармы"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
               </div>
+              <div className="relative h-64 rounded-lg overflow-hidden shadow-lg">
+                <img 
+                  src="https://cdn.poehali.dev/files/b8ef5802-dab4-4fe7-9de8-ac9bf1fba178.jpg"
+                  alt="Древние изображения практик цигун"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="relative h-64 rounded-lg overflow-hidden shadow-lg">
+                <img 
+                  src="https://cdn.poehali.dev/files/a71c287b-23b0-4117-aed8-342f19ef4e4b.jpg"
+                  alt="Высеченные фигуры на камнях Шаолиня"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="relative h-64 rounded-lg overflow-hidden shadow-lg">
+                <img 
+                  src="https://cdn.poehali.dev/files/dadc4b1e-d1cb-4549-a9a9-179d9b16b2d9.jpg"
+                  alt="Изображения упражнений комплекса"
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            </div>
+          </div>
 
-              <div className="flex items-start gap-4 p-5 bg-gradient-to-br from-white to-blue-50 rounded-lg shadow-sm border border-blue-100">
-                <Icon name="Heart" size={28} className="text-mediterranean mt-1 flex-shrink-0" />
-                <div>
-                  <h4 className="font-semibold text-gray-800 mb-2">Здоровье и долголетие</h4>
-                  <p className="text-gray-600 leading-relaxed">
-                    Регулярная практика способствует укреплению иммунитета, 
-                    повышению жизненного тонуса и энергетики
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4 p-5 bg-gradient-to-br from-white to-blue-50 rounded-lg shadow-sm border border-blue-100">
-                <Icon name="Flame" size={28} className="text-sunset mt-1 flex-shrink-0" />
-                <div>
-                  <h4 className="font-semibold text-gray-800 mb-2">Духовное развитие</h4>
-                  <p className="text-gray-600 leading-relaxed">
-                    Практики Бодхидхармы помогают найти внутренний покой, 
-                    развивают сосредоточенность и духовное восприятие
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4 p-5 bg-gradient-to-br from-white to-blue-50 rounded-lg shadow-sm border border-blue-100">
-                <Icon name="BookOpen" size={28} className="text-terracotta mt-1 flex-shrink-0" />
-                <div>
-                  <h4 className="font-semibold text-gray-800 mb-2">Историческая и культурная ценность</h4>
-                  <p className="text-gray-600 leading-relaxed">
-                    Это часть великого наследия мудрости древнего Китая, 
-                    сохраняющая свою актуальность и сегодня
-                  </p>
-                </div>
-              </div>
+          <div className="bg-gradient-to-br from-blue-50 via-healing/5 to-white rounded-2xl p-8 md:p-12 shadow-lg animate-fade-in">
+            <div className="text-center mb-8">
+              <Icon name="Mountain" size={48} className="text-healing mx-auto mb-4" />
+              <h3 className="text-3xl font-serif text-gray-800 mb-4">Прямая передача из Шаолиня</h3>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed italic">
+                "Эти древние изображения сохранились на протяжении веков, передавая мудрость великих мастеров. 
+                Я передам вам эти знания так, как они были переданы мне в самом сердце Шаолиня"
+              </p>
             </div>
           </div>
         </div>
