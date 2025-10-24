@@ -191,12 +191,34 @@ const Index = () => {
               <Icon name="Sparkles" size={28} />
               <span className="text-sm uppercase tracking-wider font-semibold">Что мы будем изучать</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800">
-              Второй комплекс цигун Бодхидхармы
+            <h2 className="text-4xl md:text-5xl font-serif mb-8 text-gray-800">
+              Изучим два древних комплекса цигун
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Древнейший комплекс цигун от самого Дамо, оставленный в наследство первым шаолиньским монахам
-            </p>
+            <div className="max-w-4xl mx-auto space-y-6 text-left">
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-8 h-8 bg-healing text-white rounded-full flex items-center justify-center font-semibold mt-1">
+                  1
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Первый комплекс</h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    Древний гормональный комплекс для восстановления женского и мужского здоровья, 
+                    помогает отсрочить климакс и справиться с ПМС
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-8 h-8 bg-healing text-white rounded-full flex items-center justify-center font-semibold mt-1">
+                  2
+                </div>
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Второй комплекс Бодхидхармы</h3>
+                  <p className="text-lg text-gray-600 leading-relaxed">
+                    Древнейший комплекс от самого Дамо из Шаолиня, оставленный в наследство первым шаолиньским монахам
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="grid md:grid-cols-2 gap-16 items-center mb-16">
