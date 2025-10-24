@@ -111,8 +111,7 @@ const Index = () => {
                 </div>
                 <h3 className="text-2xl font-serif mb-4 text-gray-800">Практики цигун</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Изучим древние техники работы с энергией ци для укрепления здоровья, 
-                  внутренней силы и баланса.
+                  Изучим два древних сильнейших по своему эффекту комплекса цигун.
                 </p>
               </CardContent>
             </Card>
