@@ -173,10 +173,9 @@ const Index = () => {
                 <div className="mb-6 text-mediterranean">
                   <Icon name="Sailboat" size={48} />
                 </div>
-                <h3 className="text-2xl font-serif mb-4 text-gray-800">Морское путешествие</h3>
+                <h3 className="text-2xl font-serif mb-4 text-gray-800">Дневное морское путешествие</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Путешествие на яхте по побережью с посещением 
-                  древних памятников и скрытых бухт.
+                  Практика на море. Посещение затонувших древних памятников и скрытых бухт.
                 </p>
               </CardContent>
             </Card>
