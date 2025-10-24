@@ -150,8 +150,7 @@ const Index = () => {
                 </div>
                 <h3 className="text-2xl font-serif mb-4 text-gray-800">Встречи рассвета</h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Каждый день начинается с приветствия солнца на берегу моря 
-                  в атмосфере покоя и гармонии.
+                  Каждый день начинаем с наполнения самой хорошей Ци на рассвете.
                 </p>
               </CardContent>
             </Card>
