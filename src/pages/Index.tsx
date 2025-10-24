@@ -122,10 +122,11 @@ const Index = () => {
                   <Icon name="Flower2" size={48} />
                 </div>
                 <h3 className="text-2xl font-serif mb-4 text-gray-800">Здоровье и долголетие</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Комплекс способствует укреплению иммунитета, 
-                  повышению жизненного тонуса и энергетики.
-                </p>
+                <ul className="text-gray-600 leading-relaxed space-y-2 list-disc list-inside">
+                  <li>Восстановление женского и мужского гормонального здоровья</li>
+                  <li>Помогает наладить женское и мужское здоровье, отсрочить симптомы климакса, справиться с проявлениями ПМС</li>
+                  <li>Укрепление иммунитета, повышение жизненного тонуса и энергетики</li>
+                </ul>
               </CardContent>
             </Card>
 
