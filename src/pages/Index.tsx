@@ -330,7 +330,7 @@ const Index = () => {
           </div>
 
           <div className="bg-white p-8 rounded-xl shadow-lg">
-            <div className="grid md:grid-cols-3 gap-8 text-center">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
               <div>
                 <Icon name="Home" size={40} className="text-healing mx-auto mb-3" />
                 <h4 className="font-semibold text-gray-800 mb-2">Комфортные номера</h4>
@@ -352,6 +352,14 @@ const Index = () => {
                 <h4 className="font-semibold text-gray-800 mb-2">Ресторан у моря</h4>
                 <p className="text-gray-600 text-sm">
                   Завтраки и ужины с видом на закат, свежие средиземноморские блюда
+                </p>
+              </div>
+
+              <div>
+                <Icon name="Palmtree" size={40} className="text-sunset mx-auto mb-3" />
+                <h4 className="font-semibold text-gray-800 mb-2">Частный пляж</h4>
+                <p className="text-gray-600 text-sm">
+                  Собственный пляж отеля для уединенного отдыха и практик у моря
                 </p>
               </div>
             </div>
