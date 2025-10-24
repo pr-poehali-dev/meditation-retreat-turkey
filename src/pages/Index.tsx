@@ -207,10 +207,12 @@ const Index = () => {
                 Именно там, в Шаолине, я изучала этот комплекс под личным руководством одного 
                 из сильнейших мастеров цигун современного Китая.
               </p>
-              <p className="text-lg text-gray-600 leading-relaxed mb-6">
-                Это канон укрепления мышц и сухожилий, улучшение кровообращения и повышение гибкости. 
-                Этот комплекс также способствует энергетическому здоровью и улучшает ясность ума.
-              </p>
+              <ul className="text-lg text-gray-600 leading-relaxed mb-6 space-y-2 list-disc list-inside">
+                <li>Укрепление мышц и сухожилий</li>
+                <li>Улучшение кровообращения и повышение гибкости</li>
+                <li>Способствует энергетическому здоровью</li>
+                <li>Улучшает ясность ума</li>
+              </ul>
               
               <div className="bg-gradient-to-br from-blue-50 to-healing/10 rounded-lg p-6">
                 <h4 className="font-semibold text-gray-800 mb-3 text-lg flex items-center gap-2">
