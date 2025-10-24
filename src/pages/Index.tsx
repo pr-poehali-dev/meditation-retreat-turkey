@@ -358,9 +358,9 @@ const Index = () => {
                 <div className="inline-block mb-6">
                   <Icon name="Sparkles" size={64} className="text-healing" />
                 </div>
-                <h3 className="text-3xl font-serif mb-4 text-gray-800">Программа «Полный ретрит»</h3>
+                <h3 className="text-3xl font-serif mb-4 text-gray-800">Программа «Цигун-интенсив»</h3>
                 <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
-                  7 дней и 6 ночей на берегу Средиземного моря
+                  Всё включено для полного погружения в практики
                 </p>
               </div>
 
@@ -368,21 +368,14 @@ const Index = () => {
                 <div className="flex items-start gap-3 p-4 bg-white rounded-lg">
                   <Icon name="CheckCircle2" size={24} className="text-healing mt-1 flex-shrink-0" />
                   <div>
-                    <p className="text-gray-700 font-medium">Проживание в шикарном отеле</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3 p-4 bg-white rounded-lg">
-                  <Icon name="CheckCircle2" size={24} className="text-healing mt-1 flex-shrink-0" />
-                  <div>
-                    <p className="text-gray-700 font-medium">Трёхразовое питание</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3 p-4 bg-white rounded-lg">
-                  <Icon name="CheckCircle2" size={24} className="text-healing mt-1 flex-shrink-0" />
-                  <div>
                     <p className="text-gray-700 font-medium">Ежедневные практики цигун</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 p-4 bg-white rounded-lg">
+                  <Icon name="CheckCircle2" size={24} className="text-healing mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="text-gray-700 font-medium">Проживание в шикарном отеле</p>
                   </div>
                 </div>
 
@@ -396,21 +389,63 @@ const Index = () => {
                 <div className="flex items-start gap-3 p-4 bg-white rounded-lg">
                   <Icon name="CheckCircle2" size={24} className="text-healing mt-1 flex-shrink-0" />
                   <div>
-                    <p className="text-gray-700 font-medium">Путешествие на яхте</p>
+                    <p className="text-gray-700 font-medium">Специальное детокс меню</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-3 p-4 bg-white rounded-lg">
                   <Icon name="CheckCircle2" size={24} className="text-healing mt-1 flex-shrink-0" />
                   <div>
-                    <p className="text-gray-700 font-medium">Экскурсии к памятникам</p>
+                    <p className="text-gray-700 font-medium">Барбекю на море</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 p-4 bg-white rounded-lg">
+                  <Icon name="CheckCircle2" size={24} className="text-healing mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="text-gray-700 font-medium">Спа процедуры</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 p-4 bg-white rounded-lg">
+                  <Icon name="CheckCircle2" size={24} className="text-healing mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="text-gray-700 font-medium">Морская прогулка</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 p-4 bg-white rounded-lg">
+                  <Icon name="CheckCircle2" size={24} className="text-healing mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="text-gray-700 font-medium">Затерянные пляжи</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 p-4 bg-white rounded-lg">
+                  <Icon name="CheckCircle2" size={24} className="text-healing mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="text-gray-700 font-medium">Старинные улочки</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 p-4 bg-white rounded-lg">
+                  <Icon name="CheckCircle2" size={24} className="text-healing mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="text-gray-700 font-medium">Затопленный античный город</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3 p-4 bg-white rounded-lg md:col-span-2">
+                  <Icon name="CheckCircle2" size={24} className="text-healing mt-1 flex-shrink-0" />
+                  <div>
+                    <p className="text-gray-700 font-medium">Нетуристическая Турция с греческими пейзажами</p>
                   </div>
                 </div>
               </div>
 
               <div className="text-center pt-8 border-t border-gray-200">
                 <p className="text-gray-600 mb-6 text-lg">
-                  Неделя тепла и солнца перед холодной зимой
+                  16-23 ноября 2025 г. · Полное погружение в мир цигун и древности
                 </p>
                 <Button 
                   size="lg" 
