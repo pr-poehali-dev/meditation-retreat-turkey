@@ -387,6 +387,13 @@ const Index = () => {
                 <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
                   Всё включено для полного погружения в практики
                 </p>
+                <div className="relative h-[300px] rounded-xl overflow-hidden shadow-2xl mb-8">
+                  <img 
+                    src="https://cdn.poehali.dev/files/d0a26237-abb6-4042-9d7f-16792d8df4dd.jpg"
+                    alt="Затерянный пляж в Каше"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
               </div>
 
               <div className="grid md:grid-cols-2 gap-6 mb-10">
