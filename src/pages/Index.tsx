@@ -351,7 +351,7 @@ const Index = () => {
                 <Icon name="UtensilsCrossed" size={40} className="text-terracotta mx-auto mb-3" />
                 <h4 className="font-semibold text-gray-800 mb-2">Ресторан у моря</h4>
                 <p className="text-gray-600 text-sm">
-                  Завтраки и ужины с видом на закат, свежие средиземноморские блюда
+                  Завтраки и ужины с видом на закат, специальное меню для нас
                 </p>
               </div>
 
