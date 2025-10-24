@@ -465,6 +465,78 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Hotel Gallery Section */}
+      <section className="py-24 px-4 bg-white">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-16 animate-fade-in">
+            <div className="flex items-center justify-center gap-2 text-mediterranean mb-4">
+              <Icon name="Hotel" size={28} />
+              <span className="text-sm uppercase tracking-wider font-semibold">Проживание</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800">
+              Шикарный отель с видом на море
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+              Комфортабельные номера, бассейн с панорамным видом и ресторан на берегу моря
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="relative h-[400px] rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 animate-fade-in">
+              <img 
+                src="https://cdn.poehali.dev/files/b6dce265-b299-4257-9368-8659fc6b5006.jpg"
+                alt="Бассейн отеля с видом на море"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+
+            <div className="relative h-[400px] rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 animate-fade-in">
+              <img 
+                src="https://cdn.poehali.dev/files/932c083f-ebbd-4204-90e8-f8af84162d7e.jpg"
+                alt="Ресторан на берегу моря"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+
+            <div className="relative h-[400px] rounded-xl overflow-hidden shadow-xl hover:shadow-2xl transition-all duration-300 animate-fade-in">
+              <img 
+                src="https://cdn.poehali.dev/files/d0c16ab0-a3fd-40dd-a8b3-579285e1c4b0.jpg"
+                alt="Номер с видом на море"
+                className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+              />
+            </div>
+          </div>
+
+          <div className="mt-12 bg-gradient-to-br from-blue-50 to-white p-8 rounded-xl shadow-lg">
+            <div className="grid md:grid-cols-3 gap-8 text-center">
+              <div>
+                <Icon name="Home" size={40} className="text-healing mx-auto mb-3" />
+                <h4 className="font-semibold text-gray-800 mb-2">Комфортные номера</h4>
+                <p className="text-gray-600 text-sm">
+                  Современные номера с панорамными окнами и видом на Средиземное море
+                </p>
+              </div>
+
+              <div>
+                <Icon name="Waves" size={40} className="text-mediterranean mx-auto mb-3" />
+                <h4 className="font-semibold text-gray-800 mb-2">Бассейн-инфинити</h4>
+                <p className="text-gray-600 text-sm">
+                  Бассейн с видом на море и горы, шезлонги для отдыха после практик
+                </p>
+              </div>
+
+              <div>
+                <Icon name="UtensilsCrossed" size={40} className="text-terracotta mx-auto mb-3" />
+                <h4 className="font-semibold text-gray-800 mb-2">Ресторан у моря</h4>
+                <p className="text-gray-600 text-sm">
+                  Завтраки и ужины с видом на закат, свежие средиземноморские блюда
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-24 px-4 bg-gradient-to-b from-blue-50 to-mediterranean/10">
         <div className="container mx-auto max-w-4xl text-center animate-fade-in">
