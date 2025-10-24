@@ -17,7 +17,7 @@ const Index = () => {
             Цигун-интенсив
           </h1>
           <p className="text-xl md:text-2xl mb-8 font-light">
-            16-23 ноября 2025 г.
+            15-23 ноября 2025 г.
           </p>
           <p className="text-lg md:text-xl mb-10 font-light opacity-90">
             Затерянный средиземноморский городок · Практики цигун · Морское путешествие
@@ -524,7 +524,7 @@ const Index = () => {
 
               <div className="text-center pt-8 border-t border-gray-200">
                 <p className="text-gray-600 mb-6 text-lg">
-                  16-23 ноября 2025 г. · Полное погружение в мир цигун и древности
+                  15-23 ноября 2025 г. · Полное погружение в мир цигун и древности
                 </p>
                 <Button 
                   size="lg" 
