@@ -378,12 +378,22 @@ const Index = () => {
             <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800">
               Условия участия
             </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-4">
-              Все включено. Проживание, питание, трансфер, практики, экскурсии, морское путешествие.
-            </p>
-            <p className="text-sm text-gray-500 max-w-2xl mx-auto">
-              Вы оплачиваете отдельно: перелёт, сувениры, дополнительные фрукты или какое-то дополнительное питание.
-            </p>
+            <div className="bg-gradient-to-br from-healing/10 to-blue-50 rounded-2xl p-8 max-w-3xl mx-auto">
+              <div className="flex items-start gap-3 mb-4">
+                <Icon name="CheckCircle2" size={28} className="text-healing mt-1 flex-shrink-0" />
+                <div>
+                  <h3 className="text-2xl font-semibold text-gray-800 mb-3">Все включено</h3>
+                  <p className="text-lg text-gray-700 leading-relaxed">
+                    Проживание • Питание • Трансфер • Практики • Экскурсии • Морское путешествие
+                  </p>
+                </div>
+              </div>
+              <div className="border-t border-gray-200 pt-4 mt-4">
+                <p className="text-sm text-gray-500 leading-relaxed">
+                  Оплачивается отдельно: перелёт, сувениры, дополнительные фрукты или дополнительное питание
+                </p>
+              </div>
+            </div>
           </div>
 
           <Card className="border-none shadow-2xl animate-fade-in bg-gradient-to-br from-blue-50 to-white">
