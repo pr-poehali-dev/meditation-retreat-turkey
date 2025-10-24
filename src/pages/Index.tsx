@@ -378,8 +378,11 @@ const Index = () => {
             <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800">
               Условия участия
             </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Всё включено: проживание, питание, практики и морское путешествие
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-4">
+              Все включено. Проживание, питание, трансфер, практики, экскурсии, морское путешествие.
+            </p>
+            <p className="text-sm text-gray-500 max-w-2xl mx-auto">
+              Вы оплачиваете отдельно: перелёт, сувениры, дополнительные фрукты или какое-то дополнительное питание.
             </p>
           </div>
 
