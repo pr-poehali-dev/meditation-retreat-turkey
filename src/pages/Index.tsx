@@ -14,10 +14,10 @@ const Index = () => {
       >
         <div className="text-center text-white px-4 animate-fade-in max-w-4xl">
           <h1 className="text-5xl md:text-7xl font-serif mb-6">
-            Ретрит в Турции
+            Цигун-интенсив. 8 дней.
           </h1>
           <p className="text-xl md:text-2xl mb-8 font-light">
-            Неделя тепла и солнца перед холодной зимой
+            16-23 ноября 2025 г.
           </p>
           <p className="text-lg md:text-xl mb-10 font-light opacity-90">
             Затерянный средиземноморский городок · Практики цигун · Морское путешествие
