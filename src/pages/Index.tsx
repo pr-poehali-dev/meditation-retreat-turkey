@@ -279,7 +279,7 @@ const Index = () => {
           <div className="bg-gradient-to-br from-blue-50 via-healing/5 to-white rounded-2xl p-8 md:p-12 shadow-lg animate-fade-in">
             <div className="text-center mb-8">
               <Icon name="Mountain" size={48} className="text-healing mx-auto mb-4" />
-              <h3 className="text-3xl font-serif text-gray-800 mb-4">Прямая передача из Шаолиня</h3>
+              <h3 className="text-3xl font-serif text-gray-800 mb-4">Прямая передача традиций Шаолиня</h3>
               <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed italic">
                 "Эти древние изображения сохранились на протяжении веков, передавая мудрость великих мастеров. 
                 Я передам вам эти знания так, как они были переданы мне в самом сердце Шаолиня"
