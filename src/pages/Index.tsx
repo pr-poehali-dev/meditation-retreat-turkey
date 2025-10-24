@@ -299,11 +299,8 @@ const Index = () => {
               <span className="text-sm uppercase tracking-wider font-semibold">Проживание</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800">
-              Шикарный отель с видом на море
+              Шикарный отель с видом на море, самые инстаграммные виды побережья.
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Комфортабельные номера, бассейн с панорамным видом и ресторан на берегу моря
-            </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-6 mb-12">
