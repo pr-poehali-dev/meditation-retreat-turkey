@@ -276,15 +276,29 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-blue-50 via-healing/5 to-white rounded-2xl p-8 md:p-12 shadow-lg animate-fade-in">
-            <div className="text-center mb-8">
-              <Icon name="Mountain" size={48} className="text-healing mx-auto mb-4" />
-              <h3 className="text-3xl font-serif text-gray-800 mb-4">Прямая передача традиций Шаолиня</h3>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed italic">
-                "Эти древние изображения сохранились на протяжении веков, передавая мудрость великих мастеров. 
-                Во многих местах этот комплекс преподают неправильно. Вы сможете запомнить его таким, каким его когда-то создал Дама. 
-                Я передам вам эти знания так, как они были переданы мне в самом сердце Шаолиня"
-              </p>
+          <div className="space-y-8">
+            <div className="bg-gradient-to-br from-healing/10 to-blue-50 rounded-2xl p-8 md:p-12 shadow-lg animate-fade-in">
+              <div className="text-center mb-6">
+                <Icon name="Heart" size={48} className="text-healing mx-auto mb-4" />
+                <h3 className="text-3xl font-serif text-gray-800 mb-4">Первый комплекс</h3>
+                <p className="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
+                  Древний гормональный комплекс цигун, который помогает наладить женское и мужское здоровье. 
+                  Практика способствует отсрочке симптомов климакса и помогает справиться с проявлениями ПМС, 
+                  восстанавливая естественный гормональный баланс организма.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-br from-blue-50 via-healing/5 to-white rounded-2xl p-8 md:p-12 shadow-lg animate-fade-in">
+              <div className="text-center mb-8">
+                <Icon name="Mountain" size={48} className="text-healing mx-auto mb-4" />
+                <h3 className="text-3xl font-serif text-gray-800 mb-4">Прямая передача традиций Шаолиня</h3>
+                <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed italic">
+                  "Эти древние изображения сохранились на протяжении веков, передавая мудрость великих мастеров. 
+                  Во многих местах этот комплекс преподают неправильно. Вы сможете запомнить его таким, каким его когда-то создал Дама. 
+                  Я передам вам эти знания так, как они были переданы мне в самом сердце Шаолиня"
+                </p>
+              </div>
             </div>
           </div>
         </div>
