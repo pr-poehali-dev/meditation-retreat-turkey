@@ -559,15 +559,39 @@ const Index = () => {
 
       {/* CTA Section */}
       <section className="py-24 px-4 bg-gradient-to-b from-blue-50 to-mediterranean/10">
-        <div className="container mx-auto max-w-4xl text-center animate-fade-in">
+        <div className="container mx-auto max-w-5xl text-center animate-fade-in">
           <Icon name="Heart" size={64} className="text-healing mx-auto mb-6" />
           <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800">
             Присоединяйтесь к ретриту
           </h2>
-          <p className="text-xl text-gray-600 mb-10 leading-relaxed max-w-2xl mx-auto">
-            Подарите себе неделю покоя, практик и средиземноморского тепла 
-            перед холодной зимой
+          <p className="text-xl text-gray-600 mb-8 leading-relaxed max-w-2xl mx-auto">
+            Подарите себе неделю релакса, практик и средиземноморского тепла перед холодной зимой
           </p>
+          
+          <div className="grid md:grid-cols-2 gap-8 text-left mb-10 max-w-4xl mx-auto">
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Цигун Бодхидхармы</h3>
+              <ul className="text-base text-gray-600 leading-relaxed space-y-2 list-disc list-inside">
+                <li>Укрепление мышц и сухожилий</li>
+                <li>Улучшение кровообращения</li>
+                <li>Повышение гибкости тела</li>
+                <li>Энергетическое здоровье</li>
+                <li>Ясность ума и концентрация</li>
+              </ul>
+            </div>
+            
+            <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold text-gray-800 mb-4">Семь форм тренировки эссенции Цзин</h3>
+              <p className="text-sm text-gray-500 italic mb-3">(нет аналогов)</p>
+              <ul className="text-base text-gray-600 leading-relaxed space-y-2 list-disc list-inside">
+                <li>Ключ к пробуждению внутренней силы</li>
+                <li>Пробуждение глубинной жизненной энергии</li>
+                <li>Восстановление гормонального баланса</li>
+                <li>Мужское и женское здоровье</li>
+              </ul>
+            </div>
+          </div>
+          
           <Button 
             size="lg" 
             className="bg-sunset hover:bg-sunset/90 text-white px-12 py-6 text-xl"
