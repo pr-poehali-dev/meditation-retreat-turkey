@@ -505,9 +505,7 @@ const Index = () => {
                   className="bg-healing hover:bg-healing/90 text-white px-12 py-6 text-xl"
                   asChild
                 >
-                  <a href="https://t.me/olvonata_private" target="_blank" rel="noopener noreferrer">
-                    Присоединяйтесь
-                  </a>
+                  <a href="https://t.me/olvonata_private" target="_blank" rel="noopener noreferrer">Я с Вами!</a>
                 </Button>
                 <p className="text-gray-500 mt-6 text-sm">
                   Количество мест ограничено
