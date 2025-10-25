@@ -202,11 +202,16 @@ const Index = () => {
                   1
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">Первый комплекс</h3>
-                  <p className="text-lg text-gray-600 leading-relaxed">
-                    Древний гормональный комплекс для восстановления женского и мужского здоровья, 
-                    помогает отсрочить климакс и справиться с ПМС
+                  <h3 className="text-xl font-semibold text-gray-800 mb-1">Семь форм тренировки эссенции Цзин (нет аналогов)</h3>
+                  <p className="text-sm text-gray-500 italic mb-3">Ключ к пробуждению внутренней силы</p>
+                  <p className="text-lg text-gray-600 leading-relaxed mb-3">
+                    Древний гормональный комплекс для восстановления женского и мужского здоровья, помогает отсрочить климакс и справиться с ПМС.
                   </p>
+                  <ul className="text-base text-gray-600 leading-relaxed space-y-1 list-disc list-inside">
+                    <li>Пробуждение глубинной жизненной энергии</li>
+                    <li>Восстановление гормонального баланса</li>
+                    <li>Мужское и женское здоровье</li>
+                  </ul>
                 </div>
               </div>
               <div className="flex items-start gap-4">
