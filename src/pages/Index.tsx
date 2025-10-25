@@ -13,10 +13,10 @@ const Index = () => {
         }}
       >
         <div className="text-center text-white px-4 animate-fade-in max-w-4xl">
-          <p className="text-sm md:text-base italic mb-3 opacity-90">Наполняемся энергией перед долгой зимой</p>
-          <h1 className="text-5xl md:text-7xl font-serif mb-6">
+          <h1 className="text-5xl md:text-7xl font-serif mb-3">
             Морской ретрит: Энергия Цигун
           </h1>
+          <p className="text-sm md:text-base italic mb-6 opacity-90">Наполняемся энергией перед долгой зимой</p>
           <p className="text-xl md:text-2xl mb-8 font-light">
             15-23 ноября 2025 г.
           </p>
