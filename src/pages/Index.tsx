@@ -496,20 +496,44 @@ const Index = () => {
                 </div>
               </div>
 
-              <div className="text-center pt-8 border-t border-gray-200">
-                <p className="text-gray-600 mb-6 text-lg">
+              <div className="pt-8 border-t border-gray-200">
+                <div className="bg-gradient-to-br from-healing/10 to-blue-50 rounded-lg p-6 mb-6">
+                  <h4 className="text-2xl font-semibold text-gray-800 mb-4 text-center">Стоимость</h4>
+                  <div className="text-center mb-4">
+                    <p className="text-3xl font-bold text-healing mb-2">150 000 ₽</p>
+                    <p className="text-gray-600">Программа ретрита</p>
+                  </div>
+                  <div className="space-y-2 text-gray-600">
+                    <p className="flex items-start gap-2">
+                      <Icon name="Plane" size={20} className="text-healing mt-1 flex-shrink-0" />
+                      <span>Отдельно оплачивается перелет <a href="https://www.tbank.ru/travel/flights/multi-way/MOW-AYT/11-15/AYT-MOW/11-23/?children=0&source=share&infants=0&cabin=Y&flights=11-15-S7-3739~11-23-2S-11&adults=1&internal_source=share_from_mb&baggage=0&composite=0" target="_blank" rel="noopener noreferrer" className="text-healing hover:underline">(предварительно рейс из Москвы: около 30 000 ₽)</a></span>
+                    </p>
+                    <p className="flex items-start gap-2">
+                      <Icon name="Coffee" size={20} className="text-healing mt-1 flex-shrink-0" />
+                      <span>Дополнительные напитки, фрукты</span>
+                    </p>
+                    <p className="flex items-start gap-2">
+                      <Icon name="Car" size={20} className="text-healing mt-1 flex-shrink-0" />
+                      <span>Личный трансфер в случае необходимости. Групповой трансфер входит в стоимость.</span>
+                    </p>
+                  </div>
+                </div>
+                
+                <p className="text-gray-600 mb-6 text-lg text-center">
                   15-23 ноября 2025 г. · Полное погружение в мир цигун и древности
                 </p>
-                <Button 
-                  size="lg" 
-                  className="bg-healing hover:bg-healing/90 text-white px-12 py-6 text-xl"
-                  asChild
-                >
-                  <a href="https://t.me/olvonata_private" target="_blank" rel="noopener noreferrer">Я с Вами!</a>
-                </Button>
-                <p className="text-gray-500 mt-6 text-sm">
-                  Количество мест ограничено
-                </p>
+                <div className="text-center">
+                  <Button 
+                    size="lg" 
+                    className="bg-healing hover:bg-healing/90 text-white px-12 py-6 text-xl"
+                    asChild
+                  >
+                    <a href="https://t.me/olvonata_private" target="_blank" rel="noopener noreferrer">Я с Вами!</a>
+                  </Button>
+                  <p className="text-gray-500 mt-6 text-sm">
+                    Количество мест ограничено
+                  </p>
+                </div>
               </div>
             </CardContent>
           </Card>
