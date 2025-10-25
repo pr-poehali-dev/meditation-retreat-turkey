@@ -221,7 +221,7 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gray-800 mb-1">Второй комплекс Бодхидхармы</h3>
-                  <p className="text-sm text-gray-500 italic mb-3">Наполняемся энергией перед долгой зимой</p>
+                  <p className="text-sm text-gray-500 italic mb-3">Бесценное наследие Шаолиня</p>
                   <p className="text-lg text-gray-600 leading-relaxed mb-3">
                     Древнейший комплекс цигун от самого Дамо. Который оставил его в наследство первым Шаолиньским монахам.
                   </p>
