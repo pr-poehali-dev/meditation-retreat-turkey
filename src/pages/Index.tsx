@@ -579,7 +579,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-12 px-4 bg-gray-800 text-white">
         <div className="container mx-auto max-w-6xl text-center">
-          <p className="text-gray-300 mb-4">Ретрит в Турции · 2024</p>
+          <p className="text-gray-300 mb-4">Ретрит в Турции · 2025</p>
           <div className="flex justify-center gap-6">
             <a href="#location" className="text-gray-300 hover:text-white transition-colors">
               Местоположение
