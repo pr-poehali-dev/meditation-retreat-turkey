@@ -213,9 +213,15 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gray-800 mb-2">Второй комплекс Бодхидхармы</h3>
-                  <p className="text-lg text-gray-600 leading-relaxed">
+                  <p className="text-lg text-gray-600 leading-relaxed mb-3">
                     Древнейший комплекс цигун от самого Дамо. Который оставил его в наследство первым Шаолиньским монахам.
                   </p>
+                  <ul className="text-base text-gray-600 leading-relaxed space-y-1 list-disc list-inside">
+                    <li>Укрепление мышц и сухожилий</li>
+                    <li>Улучшение кровообращения и повышение гибкости</li>
+                    <li>Способствует энергетическому здоровью</li>
+                    <li>Улучшает ясность ума</li>
+                  </ul>
                 </div>
               </div>
             </div>
