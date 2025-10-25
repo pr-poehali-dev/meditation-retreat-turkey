@@ -236,50 +236,11 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-16 items-center mb-16">
-            <div className="animate-fade-in">
-              <h3 className="text-3xl font-serif mb-6 text-gray-800">Древнее наследие Шаолиня</h3>
-              <p className="text-lg text-gray-600 leading-relaxed mb-4">
-                Эти древние изображения сохранились на протяжении веков, передавая мудрость великих мастеров. Часто этот комплекс преподают искаженным. Вы сможете запомнить его таким, каким его когда-то создал Дамо. Я передам вам эти знания так, как они были переданы мне в самом сердце Шаолиня.
-              </p>
-              <ul className="text-lg text-gray-600 leading-relaxed mb-6 space-y-2 list-disc list-inside">
-                <li>Укрепление мышц и сухожилий</li>
-                <li>Улучшение кровообращения и повышение гибкости</li>
-                <li>Способствует энергетическому здоровью</li>
-                <li>Улучшает ясность ума</li>
-              </ul>
-              
-              <div className="bg-gradient-to-br from-blue-50 to-healing/10 rounded-lg p-6">
-                <h4 className="font-semibold text-gray-800 mb-3 text-lg flex items-center gap-2">
-                  <Icon name="Sparkles" size={24} className="text-healing" />
-                  Польза практики
-                </h4>
-                <ul className="space-y-3 text-gray-600">
-                  <li className="flex items-start gap-2">
-                    <Icon name="CheckCircle2" size={20} className="text-healing mt-1 flex-shrink-0" />
-                    <span>Укрепление мышц и сухожилий</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Icon name="CheckCircle2" size={20} className="text-healing mt-1 flex-shrink-0" />
-                    <span>Улучшение кровообращения</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Icon name="CheckCircle2" size={20} className="text-healing mt-1 flex-shrink-0" />
-                    <span>Повышение гибкости тела</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Icon name="CheckCircle2" size={20} className="text-healing mt-1 flex-shrink-0" />
-                    <span>Энергетическое здоровье</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <Icon name="CheckCircle2" size={20} className="text-healing mt-1 flex-shrink-0" />
-                    <span>Ясность ума и концентрация</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="grid grid-cols-2 gap-4 animate-fade-in">
+          <div className="animate-fade-in">
+            <p className="text-lg text-gray-600 leading-relaxed mb-6 text-center max-w-3xl mx-auto">
+              Древнее изображение этого комплекса на камнях сохранились на протяжении веков, как напоминание о его ценности для тела и духа.
+            </p>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               <div className="relative h-64 rounded-lg overflow-hidden shadow-lg">
                 <img 
                   src="https://cdn.poehali.dev/files/1b4c000b-4c22-4e4c-8fb8-1dd5a2fddfa7.jpg"
