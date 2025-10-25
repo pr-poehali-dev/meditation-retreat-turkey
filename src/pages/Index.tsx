@@ -122,12 +122,10 @@ const Index = () => {
                 <div className="mb-6 text-mediterranean">
                   <Icon name="Flower2" size={48} />
                 </div>
-                <h3 className="text-2xl font-serif mb-4 text-gray-800">Здоровье и долголетие</h3>
-                <ul className="text-gray-600 leading-relaxed space-y-2 list-disc list-inside">
-                  <li>Восстановление женского и мужского гормонального здоровья</li>
-                  <li>Помогает отсрочить симптомы климакса</li>
-                  <li>Справиться с проявлениями ПМС</li>
-                </ul>
+                <h3 className="text-2xl font-serif mb-4 text-gray-800">Антистресс и впечатления</h3>
+                <p className="text-gray-600 leading-relaxed">
+                  Будем заниматься восстановлением гормонального баланса, нервной системы и заряжаться новыми впечатлениями
+                </p>
               </CardContent>
             </Card>
 
