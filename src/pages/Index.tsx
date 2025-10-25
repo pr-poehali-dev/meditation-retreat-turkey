@@ -45,10 +45,10 @@ const Index = () => {
                 <span className="text-sm uppercase tracking-wider font-semibold">Местоположение</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800 leading-tight">
-                Город Каш на Ликийской тропе
+                Уютный городок Каш
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed mb-4">
-                Каш – небольшой древний городок, который стоит на знаменитой Ликийской тропе еще с античных времен.
+                Наш интенсив пройдет на самом краю мыса в предместье старинного городка Каш, который стоит на знаменитой Ликийской тропе с античных времен.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed mb-4">
                 Вдали от шумных туристических локаций, где время замедляется, а душа находит покой среди древних улочек и бирюзового моря.
