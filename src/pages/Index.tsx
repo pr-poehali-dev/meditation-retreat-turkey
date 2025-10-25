@@ -203,9 +203,9 @@ const Index = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-gray-800 mb-3">Первый комплекс</h3>
-                  <h4 className="text-lg font-semibold text-gray-700 mb-1">Семь форм тренировки эссенции Цзин (нет аналогов)</h4>
-                  <p className="text-base text-gray-600 italic mb-3">Ключ к пробуждению внутренней силы</p>
                   <ul className="text-base text-gray-600 leading-relaxed space-y-1 list-disc list-inside">
+                    <li>Семь форм тренировки эссенции Цзин (нет аналогов)</li>
+                    <li>Ключ к пробуждению внутренней силы</li>
                     <li>Пробуждение глубинной жизненной энергии</li>
                     <li>Восстановление гормонального баланса</li>
                     <li>Мужское и женское здоровье</li>
