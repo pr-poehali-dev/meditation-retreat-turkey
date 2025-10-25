@@ -190,9 +190,12 @@ const Index = () => {
               <Icon name="Sparkles" size={28} />
               <span className="text-sm uppercase tracking-wider font-semibold">Что мы будем изучать</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-serif mb-8 text-gray-800">
+            <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800">
               Изучим два древних комплекса цигун
             </h2>
+            <p className="text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto mb-8">
+              Раньше эти знания передавались тайно из уст в уста, от мастера к ученику. Сейчас у вас есть возможность тоже стать наследником и носителем знаний даосской внутренней алхимии
+            </p>
             <div className="max-w-4xl mx-auto space-y-6 text-left">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0 w-8 h-8 bg-healing text-white rounded-full flex items-center justify-center font-semibold mt-1">
