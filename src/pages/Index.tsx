@@ -14,7 +14,7 @@ const Index = () => {
       >
         <div className="text-center text-white px-4 animate-fade-in max-w-4xl">
           <h1 className="text-5xl md:text-7xl font-serif mb-6">
-            Цигун-интенсив
+            Морской ретрит: Энергия Цигун
           </h1>
           <p className="text-xl md:text-2xl mb-8 font-light">
             15-23 ноября 2025 г.
