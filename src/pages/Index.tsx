@@ -372,32 +372,6 @@ const Index = () => {
       {/* Pricing Section */}
       <section id="pricing" className="py-24 px-4 bg-white">
         <div className="container mx-auto max-w-5xl">
-          <div className="text-center mb-16 animate-fade-in">
-            <div className="flex items-center justify-center gap-2 text-terracotta mb-4">
-              <Icon name="Calendar" size={28} />
-              <span className="text-sm uppercase tracking-wider font-semibold">Условия</span>
-            </div>
-            <h2 className="text-4xl md:text-5xl font-serif mb-6 text-gray-800">
-              Условия участия
-            </h2>
-            <div className="bg-gradient-to-br from-healing/10 to-blue-50 rounded-2xl p-8 max-w-3xl mx-auto">
-              <div className="flex items-start gap-3 mb-4">
-                <Icon name="CheckCircle2" size={28} className="text-healing mt-1 flex-shrink-0" />
-                <div>
-                  <h3 className="text-2xl font-semibold text-gray-800 mb-3">Все включено</h3>
-                  <p className="text-lg text-gray-700 leading-relaxed">
-                    Проживание • Питание • Трансфер • Практики • Экскурсии • Морское путешествие
-                  </p>
-                </div>
-              </div>
-              <div className="border-t border-gray-200 pt-4 mt-4">
-                <p className="text-sm text-gray-500 leading-relaxed">
-                  Оплачивается отдельно: перелёт, сувениры, дополнительные фрукты или дополнительное питание
-                </p>
-              </div>
-            </div>
-          </div>
-
           <Card className="border-none shadow-2xl animate-fade-in bg-gradient-to-br from-blue-50 to-white">
             <CardContent className="p-12">
               <div className="text-center mb-10">
@@ -498,24 +472,39 @@ const Index = () => {
 
               <div className="pt-8 border-t border-gray-200">
                 <div className="bg-gradient-to-br from-healing/10 to-blue-50 rounded-lg p-6 mb-6">
-                  <h4 className="text-2xl font-semibold text-gray-800 mb-4 text-center">Стоимость</h4>
-                  <div className="text-center mb-4">
+                  <h4 className="text-2xl font-semibold text-gray-800 mb-4 text-center">Стоимость и условия</h4>
+                  
+                  <div className="text-center mb-6">
                     <p className="text-3xl font-bold text-healing mb-2">150 000 ₽</p>
-                    <p className="text-gray-600">Программа ретрита</p>
+                    <p className="text-gray-600 mb-4">Программа ретрита</p>
                   </div>
-                  <div className="space-y-2 text-gray-600">
-                    <p className="flex items-start gap-2">
-                      <Icon name="Plane" size={20} className="text-healing mt-1 flex-shrink-0" />
-                      <span>Отдельно оплачивается перелет <a href="https://www.tbank.ru/travel/flights/multi-way/MOW-AYT/11-15/AYT-MOW/11-23/?children=0&source=share&infants=0&cabin=Y&flights=11-15-S7-3739~11-23-2S-11&adults=1&internal_source=share_from_mb&baggage=0&composite=0" target="_blank" rel="noopener noreferrer" className="text-healing hover:underline">(предварительно рейс из Москвы: около 30 000 ₽)</a></span>
+                  
+                  <div className="mb-6">
+                    <h5 className="font-semibold text-gray-800 mb-3 flex items-center gap-2">
+                      <Icon name="CheckCircle2" size={20} className="text-healing" />
+                      Все включено
+                    </h5>
+                    <p className="text-gray-700 leading-relaxed ml-7">
+                      Проживание • Питание • Трансфер • Практики • Экскурсии • Морское путешествие
                     </p>
-                    <p className="flex items-start gap-2">
-                      <Icon name="Coffee" size={20} className="text-healing mt-1 flex-shrink-0" />
-                      <span>Дополнительные напитки, фрукты</span>
-                    </p>
-                    <p className="flex items-start gap-2">
-                      <Icon name="Car" size={20} className="text-healing mt-1 flex-shrink-0" />
-                      <span>Личный трансфер в случае необходимости. Групповой трансфер входит в стоимость.</span>
-                    </p>
+                  </div>
+                  
+                  <div className="border-t border-gray-200 pt-4">
+                    <h5 className="font-semibold text-gray-800 mb-3">Оплачивается отдельно:</h5>
+                    <div className="space-y-2 text-gray-600">
+                      <p className="flex items-start gap-2">
+                        <Icon name="Plane" size={20} className="text-healing mt-1 flex-shrink-0" />
+                        <span>Перелет <a href="https://www.tbank.ru/travel/flights/multi-way/MOW-AYT/11-15/AYT-MOW/11-23/?children=0&source=share&infants=0&cabin=Y&flights=11-15-S7-3739~11-23-2S-11&adults=1&internal_source=share_from_mb&baggage=0&composite=0" target="_blank" rel="noopener noreferrer" className="text-healing hover:underline">(предварительно рейс из Москвы: около 30 000 ₽)</a></span>
+                      </p>
+                      <p className="flex items-start gap-2">
+                        <Icon name="Coffee" size={20} className="text-healing mt-1 flex-shrink-0" />
+                        <span>Дополнительные напитки, фрукты</span>
+                      </p>
+                      <p className="flex items-start gap-2">
+                        <Icon name="Car" size={20} className="text-healing mt-1 flex-shrink-0" />
+                        <span>Личный трансфер в случае необходимости. Групповой трансфер входит в стоимость.</span>
+                      </p>
+                    </div>
                   </div>
                 </div>
                 
