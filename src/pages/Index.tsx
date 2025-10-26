@@ -14,7 +14,7 @@ const Index = () => {
       >
         <div className="text-center text-white px-4 animate-fade-in max-w-4xl">
           <h1 className="text-5xl md:text-7xl font-serif mb-3">
-            Морской ретрит: Энергия Цигун
+            Морской ретрит: Эссенция Цзин
           </h1>
           <p className="text-sm md:text-base italic mb-6 opacity-90">Наполняемся энергией перед долгой зимой</p>
           <p className="text-xl md:text-2xl mb-8 font-light">
@@ -469,7 +469,7 @@ const Index = () => {
                   <h4 className="text-2xl font-semibold text-gray-800 mb-4 text-center">Стоимость и условия</h4>
                   
                   <div className="text-center mb-6">
-                    <p className="text-3xl font-bold text-healing mb-2">150 000 ₽</p>
+                    <p className="text-3xl font-bold text-healing mb-2">159 000 ₽</p>
                     <p className="text-gray-600 mb-4">Программа ретрита</p>
                   </div>
                   
@@ -479,7 +479,7 @@ const Index = () => {
                       Все включено
                     </h5>
                     <p className="text-gray-700 leading-relaxed ml-7">
-                      Проживание • Питание • Трансфер • Практики • Экскурсии • Морское путешествие
+                      Проживание • Завтрак и обед • Трансфер • Практики • Экскурсии • Морское путешествие
                     </p>
                   </div>
                   
