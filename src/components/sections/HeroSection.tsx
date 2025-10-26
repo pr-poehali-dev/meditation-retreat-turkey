@@ -23,7 +23,7 @@ const HeroSection = () => {
           className="bg-white hover:bg-gray-100 text-gray-800 px-8 py-6 text-lg font-medium"
           asChild
         >
-          <a href="https://t.me/olvonata_private" target="_blank" rel="noopener noreferrer">
+          <a href="https://t.me/Olvonata_support" target="_blank" rel="noopener noreferrer">
             Присоединяйтесь
           </a>
         </Button>

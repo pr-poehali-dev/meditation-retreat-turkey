@@ -27,12 +27,12 @@ const ContactSection = () => {
                 <div className="text-left">
                   <p className="text-sm text-gray-600 mb-1">Telegram</p>
                   <a 
-                    href="https://t.me/olvonata_private" 
+                    href="https://t.me/Olvonata_support" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-lg font-semibold text-healing hover:text-mediterranean transition-colors"
                   >
-                    @olvonata_private
+                    @Olvonata_support
                   </a>
                 </div>
               </div>
@@ -57,7 +57,7 @@ const ContactSection = () => {
                 className="w-full bg-healing hover:bg-mediterranean text-white px-8 py-6 text-lg font-medium"
                 asChild
               >
-                <a href="https://t.me/olvonata_private" target="_blank" rel="noopener noreferrer">
+                <a href="https://t.me/Olvonata_support" target="_blank" rel="noopener noreferrer">
                   Забронировать место
                 </a>
               </Button>
