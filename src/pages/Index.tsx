@@ -479,7 +479,7 @@ const Index = () => {
                       Все включено
                     </h5>
                     <p className="text-gray-700 leading-relaxed ml-7">
-                      Проживание • Завтрак и обед • Трансфер • Практики • Экскурсии • Морское путешествие
+                      Проживание • Завтрак • Трансфер • Практики • Экскурсии • Морское путешествие
                     </p>
                   </div>
                   
@@ -489,6 +489,10 @@ const Index = () => {
                       <p className="flex items-start gap-2">
                         <Icon name="Plane" size={20} className="text-healing mt-1 flex-shrink-0" />
                         <span>Перелет <a href="https://www.tbank.ru/travel/flights/multi-way/MOW-AYT/11-15/AYT-MOW/11-23/?children=0&source=share&infants=0&cabin=Y&flights=11-15-S7-3739~11-23-2S-11&adults=1&internal_source=share_from_mb&baggage=0&composite=0" target="_blank" rel="noopener noreferrer" className="text-healing hover:underline">(предварительно рейс из Москвы: около 30 000 ₽)</a></span>
+                      </p>
+                      <p className="flex items-start gap-2">
+                        <Icon name="Utensils" size={20} className="text-healing mt-1 flex-shrink-0" />
+                        <span>Обед и ужин</span>
                       </p>
                       <p className="flex items-start gap-2">
                         <Icon name="Coffee" size={20} className="text-healing mt-1 flex-shrink-0" />
