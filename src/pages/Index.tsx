@@ -469,14 +469,29 @@ const Index = () => {
                   <h4 className="text-2xl font-semibold text-gray-800 mb-4 text-center">Стоимость и условия</h4>
                   
                   <div className="text-center mb-6">
-                    <p className="text-3xl font-bold text-healing mb-2">159 000 ₽</p>
-                    <p className="text-gray-600 mb-4">Программа ретрита</p>
+                    <div className="mb-4">
+                      <p className="text-2xl font-bold text-healing mb-1">159 000 ₽</p>
+                      <p className="text-gray-600 text-sm">Одноместное размещение</p>
+                    </div>
+                    <div>
+                      <p className="text-2xl font-bold text-healing mb-1">111 000 ₽</p>
+                      <p className="text-gray-600 text-sm">Двухместное размещение</p>
+                    </div>
+                  </div>
+                  
+                  <div className="bg-white rounded-lg p-6 mb-6">
+                    <h5 className="font-semibold text-gray-800 mb-4 text-center">Также возможна повышенная категория номеров:</h5>
+                    <p className="text-center font-medium text-mediterranean mb-3">Infinity Sea View</p>
+                    <div className="space-y-2">
+                      <p className="text-center"><span className="font-semibold">Одноместное размещение:</span> 175 000 ₽</p>
+                      <p className="text-center"><span className="font-semibold">Двухместное размещение:</span> 119 000 ₽</p>
+                    </div>
                   </div>
                   
                   <div className="mb-6">
                     <h5 className="font-semibold text-gray-800 mb-3 flex items-center gap-2">
                       <Icon name="CheckCircle2" size={20} className="text-healing" />
-                      Все включено
+                      Включено
                     </h5>
                     <p className="text-gray-700 leading-relaxed ml-7">
                       Проживание • Завтрак • Трансфер • Практики • Экскурсии • Морское путешествие
@@ -492,7 +507,7 @@ const Index = () => {
                       </p>
                       <p className="flex items-start gap-2">
                         <Icon name="Utensils" size={20} className="text-healing mt-1 flex-shrink-0" />
-                        <span>Обед и ужин</span>
+                        <span>Обед/ужин</span>
                       </p>
                       <p className="flex items-start gap-2">
                         <Icon name="Coffee" size={20} className="text-healing mt-1 flex-shrink-0" />
